@@ -153,7 +153,7 @@ Error generating stack: `+e.message+`
   gap: 14px;
 
   @media (min-width: 1200px) {
-    gap: -3px;
+    gap: 0px;
   }
 `,Zv=Ft.h1`
   font-size: clamp(24px, 5vw, 36px);
@@ -162,7 +162,8 @@ Error generating stack: `+e.message+`
 
   @media (min-width: 1200px) {
     letter-spacing: 0.25px;
-    line-height: 54px;
+    line-height: 51px;
+    /* transform: translateY(-3px) */
   }
 `,Vv=Ft.p`
   font-size: clamp(24px, 5vw, 36px);
@@ -178,7 +179,9 @@ Error generating stack: `+e.message+`
   font-weight: 400;
   line-height: 25px;
   letter-spacing: 0.15px;
-  word-break: break-word;
+  @media (min-width: 1200px) {
+    letter-spacing: 0.1px;
+  }
   opacity: 0.5;
 `,wv=()=>Mt.jsx(Kv,{children:Mt.jsxs("p",{children:["Challenge by"," ",Mt.jsx("a",{href:"https://www.frontendmentor.io?ref=challenge",target:"_blank",children:"Frontend Mentor"}),". Coded by"," ",Mt.jsx("a",{href:"https://github.com/martinianol",target:"_blank",rel:"noopener noreferrer",children:"Mars"}),"."]})}),Kv=Ft.footer`
   padding: 20px;

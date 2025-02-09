@@ -33,7 +33,6 @@ const CardContainer = styled.section`
   flex-direction: column;
   gap: 33px;
   justify-content: space-between; /* ✅ Ensures the icon is pushed to the bottom */
-  min-height: 200px; /* ✅ Adjust based on content */
 
   @media (min-width: 1200px) {
     padding: 32px;

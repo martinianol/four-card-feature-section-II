@@ -21,6 +21,12 @@ const PageContainer = styled.div`
   display: flex;
   flex-direction: column;
   min-height: 100vh; /* ✅ Ensures page takes full height */
+  display: flex;
+  place-items: center;
+  background-color: #fafafa;
+  color: #4d4f62; 
+  font-family: "Poppins", sans-serif;
+  
 `;
 
 const Main = styled.main`

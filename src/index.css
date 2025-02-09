@@ -9,12 +9,6 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  background-color: #fafafa;
-  color: #4d4f62;
-  min-height: 100vh;
-  font-family: "Poppins", sans-serif;
 }
 
 #root {

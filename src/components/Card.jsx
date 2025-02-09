@@ -21,6 +21,7 @@ const Card = ({ description, title, color, icon }) => {
 export default Card;
 
 const CardContainer = styled.section`
+  flex-grow: 1;
   position: relative;
   border-radius: 8px;
   padding: 27.5px 28px;
@@ -33,6 +34,10 @@ const CardContainer = styled.section`
   gap: 33px;
   justify-content: space-between; /* ✅ Ensures the icon is pushed to the bottom */
   min-height: 200px; /* ✅ Adjust based on content */
+
+  @media (min-width: 1200px) {
+    padding: 32px;
+  }
 `;
 
 const ContentWrapper = styled.div`
@@ -59,7 +64,7 @@ const Title = styled.h2`
 `;
 
 const Description = styled.p`
-  font-size: 13px;
+  font-size: 14px;
   line-height: 23px;
   letter-spacing: 0.1px;
   opacity: 0.5;
@@ -73,5 +78,10 @@ const IconWrapper = styled.div`
     width: 57px;
     height: 57px;
     object-fit: contain;
+
+    @media (min-width: 1200px) {
+      width: 64px;
+      height: 64px;
+    }
   }
 `;

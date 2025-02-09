@@ -29,4 +29,8 @@ const Main = styled.main`
   padding: 85px 32px 78px;
   align-items: center;
   gap: 76px;
+
+  @media (min-width: 1200px) {
+    gap: 64px;
+  }
 `;

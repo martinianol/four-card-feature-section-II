@@ -178,9 +178,8 @@ Error generating stack: `+e.message+`
   display: flex;
   place-items: center;
   background-color: #fafafa;
-  color: #4d4f62; 
+  color: #4d4f62;
   font-family: "Poppins", sans-serif;
-  
 `,Wv=Ft.main`
   margin: 0 auto;
   display: flex;
@@ -192,5 +191,6 @@ Error generating stack: `+e.message+`
 
   @media (min-width: 1200px) {
     gap: 64px;
+    padding: 80px 32px;
   }
 `;Eh.createRoot(document.getElementById("root")).render(Mt.jsx(Ti.StrictMode,{children:Mt.jsx(Jv,{})}));

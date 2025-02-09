@@ -151,6 +151,10 @@ Error generating stack: `+e.message+`
   display: flex;
   flex-direction: column;
   gap: 14px;
+
+  @media (min-width: 1200px) {
+    gap: 0px;
+  }
 `,Zv=Ft.h1`
   font-size: clamp(24px, 5vw, 36px);
   font-weight: 600;

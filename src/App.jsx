@@ -28,4 +28,5 @@ const Main = styled.main`
   flex-direction: column;
   padding: 85px 32px 78px;
   align-items: center;
+  gap: 76px;
 `;

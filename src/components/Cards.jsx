@@ -17,4 +17,5 @@ export default Cards;
 const Container = styled.section`
   display: flex;
   flex-direction: column;
+  gap: 24px
 `;

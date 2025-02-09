@@ -19,14 +19,18 @@ const Container = styled.section`
   flex-direction: column;
   gap: 24px;
 
-  @media (min-width: 1200px) {
+  @media (min-width: 760px) {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* ✅ 3 equal columns */
+    grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+  }
+
+  @media (min-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr); /* ✅ 3 equal columns */
     align-items: center; /* ✅ Ensures vertical alignment support */
 
-   /* ✅ 1st element in the 1st column, vertically centered */
-   & > *:nth-child(1) {
+    /* ✅ 1st element in the 1st column, vertically centered */
+    & > *:nth-child(1) {
       grid-column: 1;
       grid-row: 1 / span 2; /* ✅ Spans across both rows */
       align-self: center; /* ✅ Centers it vertically */

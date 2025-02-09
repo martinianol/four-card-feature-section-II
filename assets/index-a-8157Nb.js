@@ -147,6 +147,9 @@ Error generating stack: `+e.message+`
   text-align: center;
   gap: 16px;
   max-width: 540px;
+  @media (min-width: 1200px) {
+    gap: 13px;
+  }
 `,Qv=Ft.div`
   display: flex;
   flex-direction: column;
@@ -175,7 +178,7 @@ Error generating stack: `+e.message+`
     line-height: 54px;
   }
 `,Lv=Ft.p`
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 25px;
   letter-spacing: 0.15px;

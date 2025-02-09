@@ -24,9 +24,8 @@ const PageContainer = styled.div`
   display: flex;
   place-items: center;
   background-color: #fafafa;
-  color: #4d4f62; 
+  color: #4d4f62;
   font-family: "Poppins", sans-serif;
-  
 `;
 
 const Main = styled.main`
@@ -40,5 +39,6 @@ const Main = styled.main`
 
   @media (min-width: 1200px) {
     gap: 64px;
+    padding: 80px 32px;
   }
 `;

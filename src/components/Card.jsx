@@ -36,6 +36,7 @@ const CardContainer = styled.section`
 
   @media (min-width: 1200px) {
     padding: 32px;
+    gap: 40px;
   }
 `;
 
@@ -44,6 +45,9 @@ const ContentWrapper = styled.div`
   flex-direction: column;
   gap: 1px;
   flex-grow: 1;
+  @media (min-width: 1200px) {
+    gap: 6px;
+  }
 `;
 
 const BorderLine = styled.div`

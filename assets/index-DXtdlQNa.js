@@ -153,7 +153,7 @@ Error generating stack: `+e.message+`
   gap: 14px;
 
   @media (min-width: 1200px) {
-    gap: 2px;
+    gap: -3px;
   }
 `,Zv=Ft.h1`
   font-size: clamp(24px, 5vw, 36px);

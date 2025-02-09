@@ -63,12 +63,16 @@ Error generating stack: `+e.message+`
 
   @media (min-width: 1200px) {
     padding: 32px;
+    gap: 40px;
   }
 `,xv=Ft.div`
   display: flex;
   flex-direction: column;
   gap: 1px;
   flex-grow: 1;
+  @media (min-width: 1200px) {
+    gap: 6px;
+  }
 `,Nv=Ft.div`
   position: absolute;
   width: 100%;
@@ -166,7 +170,7 @@ Error generating stack: `+e.message+`
   @media (min-width: 1200px) {
     letter-spacing: 0.25px;
     line-height: 51px;
-    /* transform: translateY(-3px) */
+    transform: translateY(-2px)
   }
 `,Vv=Ft.p`
   font-size: clamp(24px, 5vw, 36px);
